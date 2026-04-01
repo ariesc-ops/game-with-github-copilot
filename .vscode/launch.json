@@ -12,8 +12,14 @@
       "args": [
         "src.app:app",
         "--reload",
+        "--reload-dir",
+        "src",
         "--reload-include",
-        "src/static/*"
+        "*.html",
+        "--reload-include",
+        "*.css",
+        "--reload-include",
+        "*.js"
       ],
       "jinja": true
     }
